@@ -21,9 +21,7 @@ Lê Hùng - commit mã df17ab7d
 - Dùng git revert vì lệnh này tạo commit mới để đảo ngược thay đổi của commit cũ, không xóa lịch sử. git reset có thể làm thay đổi lịch sử nhánh, gây ảnh hưởng đến những người khác.
 ❓ **Câu 8.** `reset --soft`, `reset --mixed` (mặc định) và `reset --hard` khác nhau thế nào?
 reset --soft: Xóa commit nhưng giữ thay đổi trong staging.
-
 reset --mixed: Xóa commit, đưa thay đổi về working directory, không còn trong staging.
-
 reset --hard: Xóa commit và bỏ cả thay đổi trong working directory lẫn staging.
 ❓ **Câu 9.** Commit gây lỗi là commit nào (mã, thông điệp, tác giả)? Dùng `git show <mã>` và giải thích ngắn gọn vì sao code đó gây lỗi.
 ❓ **Câu 10.** Nếu dùng `git merge hotfix/sua-loi-cong` thay cho `cherry-pick` thì chuyện gì xảy ra?
